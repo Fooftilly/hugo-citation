@@ -8,7 +8,7 @@
     {{- if eq ($.Get 1) "" -}}
       {{- printf "(%s, %s)" $citation.author $citation.year -}}
     {{- else -}}
-      {{- printf "(%s, %s: %s)" $citation.author $citation.year ($.Get 1) -}}
+      {{- printf "(%s, %s: %s)" $citation.author $citation.year (string ($.Get 1)) -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}

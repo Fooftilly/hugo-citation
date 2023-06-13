@@ -70,7 +70,7 @@ Valid fields inside this json file are:
 I've also indluded `bib-gen.html` file inside the repo. It can be used to easily generate these json fields.
 
 ### Shortcodes
-To cite a source, use the shortcode {{< cite "key1" >}}. If you want to include a page number, use {{< cite "key1" 22 >}}, replacing "key1" with the actual citation key and 22 with the desired page number.
+To cite a source, use the shortcode `{{< cite "key1" >}}`. If you want to include a page number, use `{{< cite "key1" 22 >}}`, replacing "key1" with the actual citation key and 22 with the desired page number.
 
 To generate a bibliography at the end of your document, use the following shortcode:
 ```

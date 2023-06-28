@@ -80,3 +80,5 @@ To generate a bibliography at the end of your document, use the following shortc
 ## TODO
 - Order bibliography by last name instead of numbers
 - Multiple language support using i18n
+- Footnote style citations
+- Pop-up style windows next to footnote style citations
